@@ -12,8 +12,8 @@ gameObj.prototype.render = function() {
 var Pacman = function(){
 	gameObj.call(this);
 	this.sprite = 'img/Pacman.gif';
-	this.x = 100;
-	this.y = 100;
+	this.x = 200;
+	this.y = 200;
 };
 
 Pacman.prototype = Object.create(gameObj.prototype);
