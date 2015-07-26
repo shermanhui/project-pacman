@@ -6,6 +6,8 @@ var Engine = (function(global) {
 
 	canvas.width = 540;
 	canvas.height = 390;
+	// ctx.fillStyle="black";
+	// ctx.fillRect(0, 0, canvas.width, canvas.height);
 	canvas.style.border = "solid 1px";
 	canvas.setAttribute("class", "canvas");
 	doc.body.appendChild(canvas);
